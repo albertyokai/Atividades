@@ -1,0 +1,30 @@
+.imagem{
+    width: 15%;
+    left: -1%;;
+    position: relative;
+}
+
+p{
+    margin-top: -3px;
+    text-align: left;
+    line-height: 1.5;
+    max-width: 900px;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-image: url('fundo.png');
+    background-size: cover;
+}
+hr{
+    width: 50%;
+    margin-left: -1%;
+}
+
+.botao{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
