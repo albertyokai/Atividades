@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang='ptbr'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>input</title>
+    <link rel='stylesheet' href='main.css'>
+    <style>
+        label{
+            font-weight: hold;
+            margin-top: 6px;
+        }
+        input[type="text"],
+        input[type="password"]{
+            padding: 6px;
+            margin-top: 8px;
+            border-color: aquamarine;
+            border-radius: 4px;
+        }
+        #botaologin{
+            padding: 6px;
+            margin-top: 8px;
+            border-color: rgb(192, 219, 210);
+            border-radius: 4px;
+            background-color: azure;
+        }
+        fieldset{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            max-width: 300px;
+            margin: 0%;
+            padding: 15px;
+            border-radius: 8px;
+            margin: auto;
+            background-color: rgba(255, 255, 255, 0.699);
+        }
+        #titulo-geral {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 id='titulo-geral'>Teste</h1>
+    <h1 id='titulo-geral' class='titulo-geral'>lista de input -HTML</h1>
+
+<form action=''>
+<fieldset>
+    <legend>Formultario de login</legend>
+    <label for='nome'> Nome</label>
+    <input type='text' id='nome' name='nome'>
+<br>
+    <label for='Senha'> Senha</label>
+    <input type='password' id='Senha' name='Senha'>
+<br>
+    <input type='submit' id="botaologin" value='login'>
+    <input type='reset' id="botaologin" value='sair'>
+</fieldset>
+</form>
+</body>
+</html>

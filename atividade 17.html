@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang='ptbr'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Page Title</title>
+    <link rel='stylesheet' href='main.css'>
+<style>
+        label{
+            font-weight: hold;
+            margin-top: 6px;
+        }
+        input[type="txt"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="number"]
+        input[type="date"]{
+            padding: 6px;
+            margin-top: 8px;
+            border-color: rgb(248, 250, 249);
+            border-radius: 4px;
+            border-width: 2px;
+        }
+        fieldset{
+            flex-direction: column;
+            gap: 5px;
+            max-width: 300px;
+            margin: 1%;
+            padding: 15px;
+            border-radius: 9px;
+            background-color: rgba(255, 255, 255, 0.699);
+            border-width: 5px;
+        }
+        #botao{
+            padding: 6px;
+            margin-top: 8px;
+            border-color: rgb(192, 219, 210);
+            border-radius: 3px;
+            background-color: azure;
+        }
+</style>
+</head>
+<body>
+<form action=''>
+<fieldset>
+    <legend>Formultario de login</legend>
+    <label for='nome'>1. nome:</label>
+    <input type='txt' id='registro'  name='txt'>
+<br>
+    <label for='nome'>2. email:</label>
+    <input type='email' id='registro' name='txt'>
+<br>
+    <label for='nome'>3 telefone:</label>
+    <input type='tel' id='registro' name='txt'>
+</fieldset>
+
+<fieldset>
+    <legend>Anotações</legend>
+    <label for='mensagem'>1 mensagem.:</label>
+    <textarea name='mensagem' id='mensagem' rows='5'cols='40' placeholder="Digite a sua mensagem aqui"></textarea>
+<br>
+    <label for='code'>3 estado:</label>
+    <input type='txt' id='mensagem'  name='mensagem'>
+<br>
+    <label for='nome'>3 cidade:</label>
+    <input type='txt' id='mensagem' c name='mensagem'>
+</fieldset>
+<fieldset>
+    <legend>Pagamento</legend>
+    <label for='nome'>1. Tipo de cartão:</label>
+    <label for='nome'>2. Master card:</label>
+    <input type='radio' id="pagamento" name="pagamento">
+    <label for='nome'>3. Visa card:</label>
+    <input type='radio' id="pagamento" name="pagamento">
+    <label for='nome'>4. Inter card:</label>
+    <input type='radio' id="pagamento" name="pagamento">
+
+    <label for='nome'>numero do cartão:</label>
+    <input type='number' id='pagamento'  name='pagamento'>
+    <label for='nome'>validade:</label>
+    <input type='date' id='pagamento'  name='pagamento'>
+</fieldset>
+<fieldset>
+<input type='submit' id="botao" value="sair">
+</fieldset>
+</form>
+</body>
+</html>

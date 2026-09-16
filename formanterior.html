@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang='ptbr'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>input</title>
+    <link rel='stylesheet' href='main.css'>
+    <style>
+        #titulo-geral {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste</h1>
+    <h1 id='titulo-geral' class='titulo-geral'>lista de input -HTML</h1>
+
+    <form action='index.html' method='post'>
+    <label for='nome'> Nome</label>
+    <input type='text' id='nome' name='nome'>
+<br>
+<br>
+    <label for='Senha'> Senha</label>
+    <input type='password' id='Senha' name='Senha'>
+<br>
+<br>
+    <label for='CPF'>CPF</label>
+    <input type='number' id='CPF' name='CPF'>
+<br>
+<br>
+    <label for='email'>Email</label>
+    <input type='email' id='email' name='email'>
+<br>
+<br>
+    <label for='data'> Data de nascimento</label>
+    <input type='date' id='data' name='data'>
+<br>
+<br>
+    <label for='cor'> Cor do veículo</label>
+    <input type='color' id='cor' name='cor'>
+<br>
+<br>
+    <label for='hora'> Horario</label>
+    <input type='time' id='hora' name='hora'>
+<br>
+<br>
+    <label for='dia'> Dia da semana</label>
+    <input type='week' id='dia' name='dia'>
+<br>
+<br>
+<p>Escolha o gênero:</p>
+    <label for='masculino'> Masculino</label>
+    <input type='radio' id='masculino' name='genero'>
+<br>
+    <label for='feminino'> Feminino</label>
+    <input type='radio' id='feminino' name='genero'>
+<br>
+<br>
+    <label for='genero'>Escolha um genero:</label>
+    <select id='genero' name='genero'>
+        <option value='Masculino'>masculino</option>
+        <option value='Feminino'>feminino</option>
+    </select>
+<br>
+<br>
+    <label for='fun'> Analista</label>
+    <input type='checkbox' id='fun' class='Anali' name='funcao'>
+<br>
+    <label for='fun'> Desenvolvedor</label>
+    <input type='checkbox' id='fun' class='dev' name='funcao'>
+<br>
+<br>
+    <label for='vol'> Volume</label>
+    <input type='range' id='vol' class='vol' name='vol'>
+<br>
+<br>
+    <label for='arq'> Escolha um arquivo formato: png, jpg, gif</label>
+    <input type='file' id='arquivo' class='arquivo' name='arquivo' accept='.png, .jpg, .gif'>
+<br>
+<br>
+    <label for='Busca'>  Pesquisa</label>
+    <input type='search' id='pesquisa' class='pesquisa' name='pesquisa'>
+<br>
+<br>
+    <label for='url'>Endereço do site</label>
+    <input type='url' id='url' class='url' name='url' >
+<br>
+<br>
+    <label for='telefone'>  Telefone</label>
+    <input type='tel' id='telefone' class='telefone' name='telefone'>
+<br>
+<br>
+    <label for='mensagem'>Mensagem</label>
+    <textarea name='mensagem' id='mensagem' rows='4' cols="40" placeholder="Digite sua mensagem aqui" ></textarea>
+<br>
+<br>
+    <label for='registro'> </label>
+    <select id='cidade' name='cidade'>
+    <option value='cidade'>Montes claros</option>
+    <option value='cidade'>Belo horizonte</option>
+    </select>
+<br>
+<br>
+    <input type='submit' value='Enviar'>
+    <input type='reset' value='Limpar campo'>
+</form>
+</body>
+</html>

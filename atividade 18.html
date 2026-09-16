@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang='ptbr'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Page Title</title>
+    <link rel='stylesheet' href='main.css'>
+<style>
+        label{
+            font-weight: hold;
+            margin-top: 6px;
+        }
+        input[type="txt"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="number"]
+        input[type="date"]{
+            padding: 6px;
+            margin-top: 8px;
+             
+        }
+        fieldset{
+            flex-direction: column;
+            gap: 5px;
+            max-width: 500px;
+            margin: 1%;
+            padding: 15px;
+            border-radius: 9px;
+            background-color: rgba(255, 255, 255, 0.699);
+            border-width: 5px;
+        }
+</style>
+</head>
+<body>
+<form action=''>
+<fieldset>
+    <legend>Dados pessoais</legend>
+    <label for='nome'>Nome:</label>
+    <input type='txt' id='registro'  name='txt'>
+<br>
+    <label for='nome'>Endereço:</label>
+    <input type='txt' id='registro' name='txt'>
+<br>
+    <label for='nome'>Cidade</label>
+    <input type='txt' id='registro' name='txt'>
+<br>
+    <label for='nome'>Estado</label>
+    <select id='estado' name='estado'>
+    <option value='estado'>Rio de janeiro</option>
+    <option value='estado'>São paulo</option>
+    <option value='estado'>Minas gerais</option>
+    </select>
+</fieldset>
+
+<fieldset>
+    <legend>Dados profissionais</legend>
+    <label for='mensagem'>Natureza do Cargo</label>
+<br>
+    <label for='mensagem'>Gerência</label>
+    <input type='radio' id='txt' name='cargo'>
+    <label for='mensagem'>Financeiro</label>
+    <input type='radio' id='txt' name='cargo'>
+    <label for='mensagem'>Recepção</label>
+    <input type='radio' id='txt' name='cargo'>
+    <label for='mensagem'>Administrativo</label>
+    <input type='radio' id='txt' name='cargo'>
+    <label for='mensagem'>Juridico</label>
+    <input type='radio' id='txt' name='cargo'>
+<br>
+    <label for='mensagem'>Área de interesse</label>
+<br>
+    <input type='radio' id='txt' name='cargo'>
+    <label for='mensagem'>Gerência</label>
+    <input type='radio' id='txt' name='cargo'>
+    <label for='mensagem'>Financeiro</label>
+    <input type='radio' id='txt' name='cargo'>
+    <label for='mensagem'>Recepção</label>
+    <input type='radio' id='txt' name='cargo'>
+    <label for='mensagem'>Administrativo</label>
+    <input type='radio' id='txt' name='cargo'>
+    <label for='mensagem'>Juridico</label>
+    <label for='mensagem'>Mini-curriculo</label>
+    <textarea name='mensagem' id='mensagem' rows='5'cols='40' placeholder="Digite a sua mensagem aqui"></textarea>
+<br>
+</fieldset>
+
+<input type='submit' id="botao" value="Enviar">
+<input type='reset' id="botao" value="Limpar">
+
+</form>
+</body>
+</html>

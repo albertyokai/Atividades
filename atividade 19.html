@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang='ptbr'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Page Title</title>
+    <link rel='stylesheet' href='main.css'>
+<style>
+        label{
+            font-weight: hold;
+            margin-top: 6px;
+        }
+        input[type="txt"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="number"]
+        input[type="date"]{
+            padding: 6px;
+            margin-top: 8px;
+            margin: auto;
+             
+        }
+        textarea{
+            display: block;
+            margin: left;
+            width: 50%;
+        }
+        fieldset{
+            flex-direction: column;
+            gap: 5px;
+            max-width: 700px;
+            margin: 0%;
+            padding: 15px;
+            border-radius: 8px;
+            margin: auto;
+            border-color: rgb(22, 22, 22);
+            background-color: rgba(241, 240, 240, 0.678);
+        }
+        body{
+            background-image: url(https://img.magnific.com/vetores-gratis/estilo-de-papel-linhas-dinamicas-fundo_23-2149008629.jpg);
+        }
+</style>
+</head>
+<body>
+
+</body>
+<form action=''>
+<fieldset>
+       <h1>Formulário de contato</h1>
+       <p>Preencha suas informações e enviaremos seu pedido em breve</p>
+ 
+    <label for='nome'>Seu nome:</label>
+    <input type='txt' id='registro'  name='Primeiro nome'>
+    <input type='txt' id='registro'  name='Segundo nome'>
+<br>
+<br>
+    <label for='nome'>Seu email:</label>
+    <input type='email' id='registro' name='txt'>
+<br>
+<br>
+    <label for='nome'>Seu telefone*</label>
+    <input type='tel' id='registro' name='txt'>
+    <input type='tel' id='registro' name='txt'>
+    <input type='tel' id='registro' name='txt'>
+<br>
+<br>
+    <label for='nome'>Enviar mensagem para*</label>
+    <select id='estado' name='estado'>
+    <option value='estado'>Outro</option>
+    <option value='estado'>você</option>
+    </select>
+<br>
+<br>
+    <label for='mensagem'>Mensagem</label>
+<br>
+    <textarea name='mensagem' id='mensagem' rows='5'cols='40' placeholder="Digite a sua mensagem aqui"></textarea>
+<br>
+    <label for='mensagem'>Verificação</label>
+    <input type="" for='mensagem'>
+<br>
+<input type='submit' id="botao" value="Enviar">
+</fieldset>
+</form>
+</body>
+</html>
