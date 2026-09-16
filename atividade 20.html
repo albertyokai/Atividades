@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang='ptbr'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>input</title>
+    <link rel='stylesheet' href='main.css'>
+    <style>
+        label{
+            font-weight: hold;
+            margin-top: 6px;
+        }
+        input[type="text"],
+        input[type="password"],
+        input[type="number"]{
+            padding: 6px;
+            margin-top: 8px;
+            border-color: aquamarine;
+            border-radius: 4px;
+        }
+        #botaologin{
+            padding: 6px;
+            margin-top: 8px;
+            border-color: rgb(192, 219, 210);
+            border-radius: 4px;
+            background-color: azure;
+        }
+        fieldset{
+            display: flex;
+            gap: 5px;
+            max-width: 300px;
+            margin: 0%;
+            padding: 15px;
+            border-radius: 8px;
+            border-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+<form action=''>
+
+    <label for='nome'> Nome</label>
+    <input type='text' id='registro' name='registro'>
+<br>
+    <label for='Senha'>idade</label>
+    <input type='number' id='registro' name='registro'>
+<br>
+    <label for='Senha'> Senha</label>
+    <input type='password' id='registro' name='registro'>
+<br>
+<fieldset>
+    <legend>Sexo</legend>
+    <input type="radio">
+    <label for="sexo">M</label>
+    <input type="radio">
+    <label for="sexo">F</label>
+</fieldset>
+<br>
+<fieldset>
+    <legend>Estado Civil</legend>
+    <input type="radio">
+    <label for="estado-civil">Casado:</label>
+    <input type="radio">
+    <label for="estado-civil">ENrolado:</label>
+    <input type="radio">
+    <label for="estado-civil">Solteiro:</label>
+</fieldset>
+<br>
+<fieldset>
+    <legend>Comida favorita</legend>
+    <input type="radio">
+    <label for="comida">Macarrão:</label>
+    <input type="radio">
+    <label for="comida">Frango:</label>
+</fieldset>
+    <label for="arqv">Selecione o seu arquivo</label>
+    <input type="file" "Nenhum arquivo selecionado">
+<br>
+    <label for="cor">Selecione uma cor</label>
+    <input type="color">
+<br>
+    <label for="data">Selecione uma data</label>
+    <input type="date">
+<br>
+    <label for="email">Email</label>
+    <input type="email">
+
+<br>
+    <label for="numero">numero</label>
+    <input type="number"> 
+<br>
+    <input type="range">
+<br>
+    <label for="data">Selecione uma data</label>
+    <input type="date">
+<br>
+    <label for="data">Selecione uma data e horas</label>
+    <input type="datetime">
+
+<br>
+    <label for="data">Selecione uma data, horas e local</label>
+    <input type="datetime-local">
+<br>
+    <label for="data">Selecione um horario</label>
+    <input type="time">
+<br>
+    <label for="data">Selecione uma semana</label>
+    <input type="week">
+<br>
+    <label for="data">Selecione um mês</label>
+    <input type="month">
+<br>
+    <textarea name='mensagem' id='mensagem' rows='5'cols='40' placeholder="Digite a sua mensagem aqui"></textarea>
+<br>
+    <select id='cores' name='cores'>
+    <option value='cores'>Vermelho</option>
+    <option value='cores'>rosa</option>
+    <option value='cores'>Verde</option>
+    </select>
+    <label>URL:</label>
+    <input type="url">
+<br>
+    <input type='submit' id="botaologin" value='Enviar'>
+    <input type='reset' id="botaologin" value='redefinir'>
+
+</form>
+</body>
+</html>
