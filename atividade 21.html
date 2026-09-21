@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang='ptbr'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Page Title</title>
+    <link rel='stylesheet' href='main.css'>
+    <style>
+        fieldset{
+            display: flex;
+            flex-direction: column;
+            max-width: 350px;
+            padding: 12px;
+            margin: auto;
+            border-color: none;
+            border-radius: 8px;
+        }
+        h1{
+            text-align: center;
+        }
+        .botao{
+            background-color: rgb(204, 174, 233);
+            border-radius: 8px;
+            border-width: 4px;
+            padding: 8px;
+            font-size: 20px;
+        }
+        input[type="text"]{
+            border-radius: 8px;
+            border-color: rgb(93, 0, 112);
+            font-size: 15px;
+        }
+        select{
+            border-radius: 8px;
+            border-color: rgb(93, 0, 112);
+            padding: 8px;
+        }
+        label{
+            font-size: 17px;
+        }
+        body{
+            background-image: url(https://img.magnific.com/fotos-premium/abstracto-pintado-de-preto-aquarela-de-fundo-generativo-ai_69037-2086.jpg?semt=ais_hybrid&w=740&q=80);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }  
+    </style>
+</head>
+<body>
+    <h1>On-site Enquires form</h1>
+    <form action="https://sheetdb.io/api/v1/6h8k47zzele4q" method="post">
+        <fieldset>
+            <label for="nome">nome</label>
+            <input type="text" name="data[nome]" id="nome">
+<br>
+            <label for="sobrenome">sobrenome</label>
+            <input type="text" name="data[sobrenome]" id="sobrenome">
+<br>
+            <label for="estado">estado</label>
+            <select name="estado">
+                <option value="MG">MG</option>
+                <option value="MG">SP</option>
+                <option value="MG">RJ</option>
+                <option value="MG">BH</option>
+            </select>
+<br>
+            <label for="cpf">cidade</label>
+            <input type="text" name="data[cpf]" id="cpf">
+<br>
+            <input class="botao" type='submit' name="data[botão]" id='botão' value="Enviar dados">
+        </fieldset>
+    </form>
+</body>
+</html>
