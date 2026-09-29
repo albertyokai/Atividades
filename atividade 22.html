@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang='ptbr'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Page Title</title>
+    <link rel='stylesheet' href='main.css'>
+    <style>
+        .coluna{
+            
+          
+            max-width: 800px;
+            padding: 12px;
+            margin: auto;
+            border-color: none;
+            border-radius: 6px;
+            gap: 20px;
+            padding-bottom: 50px;
+         
+        }
+        .titulo{
+            
+            max-width: 800px;
+            margin: auto;
+            border-color: none;
+            border-radius: 6px;
+            gap: 20px;
+            background-color: rgb(233, 230, 230);
+            padding-bottom: 1px;
+            background-image: linear-gradient(rgb(204, 204, 204),rgb(255, 255, 255));
+        }
+        h1{
+            text-align: center;
+        }
+        .botao{
+            background-color: rgb(221, 221, 221);
+            border-radius: 3px;
+            padding: 2px;
+            font-size: 17px;
+            width: 200px;
+            margin-top: 0%;
+            background-image: linear-gradient(rgb(204, 204, 204),rgb(255, 255, 255));
+        }
+        input[type="text"],input[type="email"],input[type="tel"]{
+            border-radius: 3px;
+            border-color: rgb(212, 211, 212);
+            background-image: linear-gradient(rgba(252, 250, 250, 0.849),rgb(255, 255, 255));
+            padding: 9px;
+            
+        }
+        select{
+            background-image: linear-gradient(rgba(199, 198, 198, 0.849),rgb(255, 255, 255));
+            border-radius: 6px;
+            border-color: rgb(212, 211, 212);
+            padding: 8px;
+        }
+        label{
+            font-size: 17px;
+            margin-right: 40px;
+        }
+        body{
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            background-image: url(https://img.magnific.com/fotos-premium/renderizacao-3d-de-um-padrao-geometrico-abstrato-branco_344726-142.jpg?w=1480);
+            background-size: cover;
+        }  
+        textarea{
+           display: block;
+           border-radius: 6px;
+           margin-left: 178px;
+           padding: 60px;
+           background-image: linear-gradient(rgb(230, 227, 227),rgb(255, 255, 255));
+        }
+        .nomes{
+            margin-left: 9px;
+            margin-top: 10%;
+        }
+        .empresa{
+            margin-left: 79px;
+            margin-top: 3%;
+        }
+        .email{
+            margin-left: 98px;
+            margin-top: 3%;
+        }
+        .ddd{
+            width: 70px;
+        }
+        .telefone{
+            width: 40%;
+        }
+        .genero{
+            width: 50%;
+            margin-left: 100px;
+        }
+        
+    </style>
+</head>
+<body>
+    <fieldset class="titulo"><h1>Formulario de cadastro</h1></fieldset>
+    <form action="https://sheetdb.io/api/v1/wpw9vgm7nab5m" method="post">
+        <fieldset class="coluna">
+         
+            
+          <label>nome e sobrenome</label>
+            <input class="nomes" type="text" name="data[nome]" id="nome">
+            <input class="nomes" type="text" name="data[sobrenome]" id="sobrenome"></tr>
+<br>
+<br>
+<br>
+            <label for="cpf">empresa</label>
+            <input type="text" class="empresa" name="data[cpf]" id="cpf">
+<br>
+<br>
+            <label for="cpf">email</label>
+            <input type="email" class="email" name="data[email]" id="cpf">
+<br>
+<br>           
+<br>    
+            <label>Assunto</label>
+            <textarea name="data[mensagem]" id="mensagem" rows="5" cols="40" placeholder="Digite a sua mensagem aqui"></textarea>
+<br>
+            <label>Telefone com DDD</label>
+            <input type="tel" name="data[DDD]" class="ddd">  <input type="tel" name="data[telefone]" class="telefone">
+<br>
+<br>
+            <label for="estado">sexo</label>
+            <select name="data[genero]" class="genero">
+                <option value="genero">---Selecione uma opção---</option>
+                <option value="genero">masculino</option>
+                <option value="genero">feminino</option>
+            </select>
+<br>
+<br>
+            <label>Você esta começando programação?</label>
+<br>
+            <input type="radio">
+            <label for="sim" name="data[sim]">Sim</label>
+            <input type="radio">
+            <label for="nao" name="data[não]">não</label>
+<br>
+<br>
+            <input class="botao" type='submit' name="data[botão]" id='botão' value="Enviar dados">
+
+        </fieldset>
+    </form>
+</body>
+</html>
