@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang='ptbr'>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Page Title</title>
+    <link rel='stylesheet' href='main.css'>
+</head>
+
+<body>
+    <button onclick="verificarhora()">rodar</button>
+    <script>
+        function verificarhora() {
+            let hora = 14;
+
+            if (hora < 12) {
+                alert("bom dia");
+            } else if (hora < 18) {
+                alert("Boa tarde");
+            } else {
+                alert("boa noite");
+            }
+        }
+    </script>
+</body>
+
+</html>
