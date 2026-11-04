@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset {
+            max-width: 400px;
+
+            padding: 20px;
+            border-radius: 10px;
+            background-color: linear-gradient(to right, rgba(219, 218, 218, 0.171), rgba(255, 251, 251, 0.534));
+            box-shadow: 0 0 102px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Comentários</legend>
+        <input id="input" type="text"  placeholder="Digite o seu texto1">
+        <button id="botao">Comentar</button>
+        <p id="result" span >Primeiro comentario digitado</p>
+    
+
+<br>
+    <input id="input2" type="text" placeholder="Digite o seu texto2">
+    <button id="botao2">Comentar</button>
+    <p id="result2" spa>Segundo comentario digitado</p>    
+<br>
+    <input id="input3" type="text" placeholder="Digite o seu texto3">
+    <button id="botao3">Comentar</button>
+    <p id="result3" span>Terceiro comentario digitado</p>
+</fieldset> 
+    <script>
+        const  input = document.getElementById('input');
+        const  botao = document.getElementById('botao');
+        const  result = document.getElementById('result');
+
+
+        function mostrarcomentario() {
+            const texto_digitado = input.value;
+            result.textContent = texto_digitado;
+        }
+        botao.addEventListener('click', mostrarcomentario);
+
+        const  input2 = document.getElementById('input2');
+        const  botao2 = document.getElementById('botao2');
+        const  result2 = document.getElementById('result2');
+
+        function mostrarcomentario2() {
+            const texto_digitado2 = input2.value;
+            result2.textContent = texto_digitado2;
+        }
+
+        botao2.addEventListener('click', mostrarcomentario2);
+
+        const input3 = document.getElementById('input3');
+        const botao3 = document.getElementById('botao3');
+        const result3 = document.getElementById('result3');
+
+        function mostrarcomentario3() {
+            const texto_digitado3 = input3.value;
+            result3.textContent = texto_digitado3;
+        }
+
+        botao3.addEventListener('click', mostrarcomentario3);
+    </script>
+</body>
+</html>
